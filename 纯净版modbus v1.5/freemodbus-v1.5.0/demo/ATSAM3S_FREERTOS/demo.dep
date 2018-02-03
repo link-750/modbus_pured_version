@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1612083301</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\freertos\portable\IAR\ARM_CM3\port.c</file>
+      <file>$PROJ_DIR$\freertos\portable\IAR\ARM_CM3\portmacro.h</file>
+      <file>$PROJ_DIR$\freertos\queue.c</file>
+      <file>$PROJ_DIR$\freertos\portable\IAR\ARM_CM3\portasm.s</file>
+      <file>$PROJ_DIR$\freertos\list.c</file>
+      <file>$PROJ_DIR$\freertos\croutine.c</file>
+      <file>$PROJ_DIR$\freertos\FreeRTOSConfig.h</file>
+      <file>$PROJ_DIR$\freertos\portable\MemMang\heap_2.c</file>
+      <file>$PROJ_DIR$\libraries\drivers\wdt\wdt.c</file>
+      <file>$PROJ_DIR$\libraries\drivers\usart\usart.c</file>
+      <file>$PROJ_DIR$\libraries\drivers\tc\tc.c</file>
+      <file>$PROJ_DIR$\libraries\drivers\pmc\pmc.c</file>
+      <file>$PROJ_DIR$\libraries\drivers\pio\pio.c</file>
+      <file>$PROJ_DIR$\board\board_memories.c</file>
+      <file>$PROJ_DIR$\board\board_cstartup_iar.c</file>
+      <file>$PROJ_DIR$\board\board_lowlevel.c</file>
+      <file>$PROJ_DIR$\board\exceptions.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\porttimer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\portserial.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\portother.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncinput.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncholding.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncdisc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncdiag.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfunccoils.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbcrc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbascii.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mb.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tasks.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\queue.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\port.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_2.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\croutine.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\wdt.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\tc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\pmc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\pio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\exceptions.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\board_memories.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\board_lowlevel.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\portasm.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\board_cstartup_iar.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\demo.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\porttimer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\portserial.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\portother.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\portevent.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbutils.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbrtu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncother.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncinput.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncholding.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncdisc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncdiag.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfunccoils.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbcrc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbascii.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\mb.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\tasks.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\queue.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\port.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\heap_2.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\croutine.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\list.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\wdt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\exceptions.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\demo.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\tc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\board_memories.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\pmc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\pio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\board_cstartup_iar.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\board_lowlevel.o</file>
+      <file>$PROJ_DIR$\..\..\modbus\include\mbconfig.h</file>
+      <file>$PROJ_DIR$\..\..\modbus\ascii\mbascii.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\mb.c</file>
+      <file>$PROJ_DIR$\freertos\tasks.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\include\mb.h</file>
+      <file>$PROJ_DIR$\..\..\modbus\ascii\mbascii.h</file>
+      <file>$PROJ_DIR$\..\..\modbus\include\mbframe.h</file>
+      <file>$PROJ_DIR$\..\..\modbus\rtu\mbcrc.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\rtu\mbcrc.h</file>
+      <file>$PROJ_DIR$\..\..\modbus\include\mbfunc.h</file>
+      <file>$PROJ_DIR$\..\..\modbus\functions\mbfunccoils.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\functions\mbfuncdiag.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\functions\mbfuncdisc.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\functions\mbfuncholding.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\functions\mbfuncinput.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\functions\mbfuncother.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\include\mbport.h</file>
+      <file>$PROJ_DIR$\..\..\modbus\include\mbproto.h</file>
+      <file>$PROJ_DIR$\..\..\modbus\functions\mbutils.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\rtu\mbrtu.c</file>
+      <file>$PROJ_DIR$\..\..\modbus\rtu\mbrtu.h</file>
+      <file>$PROJ_DIR$\..\..\modbus\include\mbutils.h</file>
+      <file>$PROJ_DIR$\port\port.h</file>
+      <file>$PROJ_DIR$\port\portevent.c</file>
+      <file>$PROJ_DIR$\port\portother.c</file>
+      <file>$PROJ_DIR$\port\portserial.c</file>
+      <file>$PROJ_DIR$\port\porttimer.c</file>
+      <file>$PROJ_DIR$\demo.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbfuncother.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbrtu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mbutils.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\portevent.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\board\at91sam3s4\chip.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\board\exceptions.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\board\board.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\board\at91sam3s4\AT91SAM3S4.h</file>
+      <file>$PROJ_DIR$\board\board_lowlevel.h</file>
+      <file>$PROJ_DIR$\libraries\cmsis\core_cm3.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\libraries\drivers\wdt\wdt.h</file>
+      <file>$PROJ_DIR$\libraries\drivers\usart\usart.h</file>
+      <file>$PROJ_DIR$\libraries\drivers\pmc\pmc.h</file>
+      <file>$PROJ_DIR$\libraries\drivers\utility\assert.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\libraries\drivers\utility\trace.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\freertos\include\croutine.h</file>
+      <file>$PROJ_DIR$\freertos\include\projdefs.h</file>
+      <file>$PROJ_DIR$\freertos\include\portable.h</file>
+      <file>$PROJ_DIR$\freertos\include\list.h</file>
+      <file>$PROJ_DIR$\freertos\include\FreeRTOS.h</file>
+      <file>$PROJ_DIR$\freertos\include\mpu_wrappers.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\freertos\include\task.h</file>
+      <file>$PROJ_DIR$\libraries\drivers\tc\tc.h</file>
+      <file>$PROJ_DIR$\freertos\include\semphr.h</file>
+      <file>$PROJ_DIR$\freertos\include\queue.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\libraries\drivers\pio\pio.h</file>
+      <file>$PROJ_DIR$\board\board_memories.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\freertos\include\StackMacros.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\freertos\portable\IAR\ARM_CM3\port.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117 140 114 6 133 111 141 135 136 124 113 116 120 115 1 139 137 138</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\freertos\queue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 111 117 141 136 116 115 148 138 134 133 113 120 135 149 145 140 6 1 139 137</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\freertos\portable\IAR\ARM_CM3\portasm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\freertos\list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117 124 116 111 136 138 133 113 115 135 149 137 120 140 6 1 139</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 117 124 113 115 111 116 120 133 138 140 135 6 136 1 139 137</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\freertos\croutine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 117 140 134 6 120 124 141 135 136 113 116 115 111 137 138 1 139</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 140 117 124 113 115 111 116 120 133 135 6 136 1 139 141 137 134</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\freertos\portable\MemMang\heap_2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116 138 124 113 140 117 141 133 120 6 1 139 137 149 115 111 135 136</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 117 124 113 115 111 116 120 133 138 140 135 6 136 1 139 141 137</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\drivers\wdt\wdt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 117 111 112 110 126 116 115 125 118 124 120 121</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\drivers\usart\usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 110 113 117 112 124 132 116 115 118 127 129 120 125 146 131 130 121 133</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\drivers\tc\tc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 117 112 111 110 125 116 115 118 121 124 120 142</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\drivers\pmc\pmc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118 117 125 116 115 129 112 113 111 110 131 121 124 120 132 130 128 133 146</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\libraries\drivers\pio\pio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 113 117 128 110 121 111 118 125 112 116 115 146 120</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\board\board_memories.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117 125 116 115 112 113 111 110 147 121 124 120 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118 110 117 124 113 115 111 116 120 125 112 121 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\board\board_cstartup_iar.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 117 116 115 114 112 113 111 110 123 122 121 124 120 119 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118 110 117 124 113 115 111 116 120 125 112 121 123 119 114 122</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\board\board_lowlevel.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110 120 124 121 122 117 147 146 125 112 113 116 115 111 118</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118 110 117 124 113 115 111 116 120 125 112 121 147 122 146</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\board\exceptions.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 117 116 115 112 113 111 110 118 121 124 120 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114 118 110 117 124 113 115 111 116 120 125 112 121</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\ascii\mbascii.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116 115 117 124 94 128 78 127 100 84 113 111 118 146 110 121 119 148 82 83 86 133 120 145 142 126 123 125 112 149 95</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 117 124 113 115 111 116 120 133 148 145 100 118 110 125 112 121 142 128 126 146 123 119 127 82 94 95 78 83 84 86</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\mb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 116 127 118 78 83 115 117 128 124 95 100 98 113 111 146 110 121 148 82 84 87 133 120 145 142 126 123 125 112 149 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 117 124 113 115 111 116 120 133 148 145 100 118 110 125 112 121 142 128 126 146 123 119 127 82 94 95 78 84 87 98 83</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\freertos\tasks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 116 115 117 138 148 150 131 113 135 136 149 141 133 111 130 120 145 140 6 1 139 137</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\rtu\mbcrc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118 127 121 128 110 120 124 146 117 142 126 123 125 112 113 116 115 111 119 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 118 110 117 124 113 115 111 116 120 125 112 121 142 128 126 146 123 119 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\functions\mbfunccoils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117 110 84 124 145 126 112 100 78 133 120 142 123 125 148 82 95 116 113 115 111 118 128 146 127 121 119 94 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 117 124 113 115 111 116 120 133 148 145 100 118 110 125 112 121 142 128 126 146 123 119 127 82 94 95 84 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\functions\mbfuncdiag.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\functions\mbfuncdisc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111 117 124 146 121 84 113 118 110 100 78 116 115 128 127 148 82 95 133 120 145 142 126 123 125 112 119 94 149</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149 117 124 113 115 111 116 120 133 148 145 100 118 110 125 112 121 142 128 126 146 123 119 127 82 94 95 84 78</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\functions\mbfuncholding.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124 117 145 126 112 84 110 100 78 133 120 142 123 125 148 82 95 116 113 115 111 118 128 146 127 121 119 94 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\functions\mbfuncinput.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 145 117 124 126 112 84 110 100 78 133 120 142 123 125 148 82 95 116 113 115 111 118 128 146 127 121 119 94 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\functions\mbfuncother.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117 116 127 84 115 128 124 100 78 113 111 118 146 110 121 148 82 95 133 120 145 142 126 123 125 112 119 94 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\functions\mbutils.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128 116 115 117 124 95 127 100 113 111 118 146 110 121 148 82 133 120 145 142 126 123 125 112 149 119 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\modbus\rtu\mbrtu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116 127 117 98 115 128 124 100 86 113 111 118 146 110 121 148 82 84 94 133 120 145 142 126 123 125 112 119 149 95</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\port\portevent.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146 121 120 124 117 94 6 95 118 110 144 140 133 137 100 128 127 141 82 135 136 113 116 115 111 1 139 142 126 123 125 112 138 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\port\portother.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113 117 135 94 110 82 124 111 137 126 112 141 119 116 115 136 139 142 123 125 138 143 133 120 140 6 1 144 100 95 118 128 146 127 121 149</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\port\portserial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116 95 118 110 82 115 117 136 124 146 121 141 94 113 111 135 137 100 128 127 138 144 133 120 140 6 1 139 142 126 123 125 112 149 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\port\porttimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 118 110 133 100 140 117 137 139 146 121 144 94 6 120 124 128 127 141 143 82 135 136 113 116 115 111 1 142 126 123 125 112 95 138 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\demo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121 6 117 100 118 82 120 124 110 140 133 137 146 141 127 94 135 136 113 116 115 111 1 139 125 112 95 128 138 142 126 123 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138 140 117 124 113 115 111 116 120 133 135 6 136 1 139 141 137 118 110 125 112 121 127 82 100 142 128 126 146 123 119 94 95</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
